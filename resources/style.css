@@ -32,7 +32,7 @@ body {
 header {
     padding-left: 1rem;
     background-color: black;
-    color: white;
+    color: #D3D3D3;
     display: inline-flex;
     flex-direction: column;
     height: 100vh;
@@ -54,12 +54,44 @@ h1 {
     padding: 10px;
 }
 
+#about-me-section {
+    margin-left: 30px;
+    display: flex;
+    gap: 3em;
+}
+
+#about-me-text-1, #about-me-text-2 {
+    width: 400px;
+}
+
+
+#about-me-image img {
+    height: 300px;
+    border: 1px solid #36454f;
+    box-shadow: 5px 5px #36454f;
+}
+
+#about-me, #skills, #projects, #contact {
+    margin-left: 30px;
+}
+
 .project-container {
     display: flex;
     border: 1px solid #36454f;
-    /* border-radius: 5px; */
+    height: 50px;
     margin: 30px;
     padding: 10px;
+    padding-left: 30px;
     box-shadow: 5px 5px  #36454f;
 }
 
+.project-header {
+    display: flex;
+    gap: 1rem;
+}
+
+.expand-sign {
+    font-size: 2rem;
+    position: relative;
+    bottom: 20px;
+}
