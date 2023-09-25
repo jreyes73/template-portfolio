@@ -3,15 +3,26 @@
     src: url(./Roboto_Condensed/RobotoCondensed-Regular.ttf);
   }
 
+nav {
+    height: 4rem;
+    position: fixed;
+    background-color: #D3D3D3;
+    width: 100vw;
+    border: 1px solid #36454f;
+    z-index: 1;
+}
+
 #nav-name {
     font-size: 1.5rem;
     padding-left: 0.5rem;
+    margin-top: 1.2rem;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     padding-left: 3rem;
+    font-weight: 700;
 }
 
 .nav-container {
@@ -21,6 +32,7 @@
     justify-content: end;
     padding-right: 3rem;
     font-size: 1.2rem;
+    margin-right: 5rem;
 }
 
 body {
@@ -30,19 +42,34 @@ body {
 }
 
 header {
-    padding-left: 1rem;
     background-color: black;
+    display: flex;
+    height: 95vh;
+    gap: 30rem;
+    position: relative;
+    top: 4rem;    
+}
+
+#header-text {
+    padding-left: 30px;
     color: #D3D3D3;
-    display: inline-flex;
-    flex-direction: column;
-    height: 100vh;
-    font-size: 3.5rem;
+    font-size: 5rem;
+    width: 100vw;
+}
+
+#header-image img {
+    height: 500px;
+    border: 1px solid #36454f;
+    box-shadow: 5px 5px #36454f;
+    position: relative;
+    top: 9%;
 }
 
 h1 {
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 100vw;
+    max-width: 400px;
+    height: 130px;
 }
 
 .nav-container > li > a {
@@ -51,7 +78,27 @@ h1 {
 }
 
 .nav-container > li {
-    padding: 10px;
+    padding: 0.3rem 10px 10px 10px;
+}
+
+.nav-container li a:hover {
+    color: #2a9df4;
+}
+
+#about-me-blank {
+    height: 4rem;
+}
+
+#projects-blank {
+    height: 4rem;
+}
+
+#skills-blank {
+    height: 4rem;
+}
+
+#contact-blank {
+    height: 4rem;
 }
 
 #about-me-section {
@@ -76,13 +123,53 @@ h1 {
 }
 
 .project-container {
-    display: flex;
     border: 1px solid #36454f;
     height: 50px;
     margin: 30px;
     padding: 10px;
     padding-left: 30px;
     box-shadow: 5px 5px  #36454f;
+}
+
+.collapsible {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 95vw;
+    margin: 30px;
+    border: 1px solid #36454f;
+    box-shadow: 5px 5px  #36454f;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #ccc;
+  }
+
+.content {
+    width: 80vw;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+.image-container {
+    display: flex;
+    gap: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.image-container img {
+    height: 200px;
+    border: 1px solid #36454f;
+    box-shadow: 5px 5px #36454f;
 }
 
 .project-header {
@@ -94,4 +181,94 @@ h1 {
     font-size: 2rem;
     position: relative;
     bottom: 20px;
+}
+
+#resume-website-details {
+    visibility: hidden;
+}
+
+.details-images {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+#resume-website-details img {
+    height: 150px;
+}
+
+.skills-box {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #36454f;
+    box-shadow: 5px 5px #36454f;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+}
+
+#contact-final-container {
+    display: flex;
+    justify-content: center;
+}
+
+#contact-final-container p a {
+    text-decoration: none;
+    width: 95vw;
+}
+
+hr {
+    box-shadow: 5px 5px 5px #36454f;
+    margin-top: 0px;
+}
+
+#contact-page-body {
+    background-color: #ccc;
+}
+
+#contact-page-main {
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+    align-items: center;
+}
+
+.contact-container {
+    height: 320px;
+    width: 600px;
+    border: 1px solid #36454f;
+    box-shadow: 5px 5px #36454f;
+    background-color: white;
+}
+
+.contact-container p {
+    margin-left: 30px;
+    font-weight: 800;
+}
+
+#social-media-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-media-box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #36454f;
+    box-shadow: 5px 5px #36454f;
+    border-radius: 20px;
+}
+
+#linkedin-box {
+    background-image: url(./linked-in-logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#instagram-box {
+    background-image: url(./instagram-logo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
