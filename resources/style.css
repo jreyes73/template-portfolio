@@ -16,6 +16,11 @@ nav {
     font-size: 1.5rem;
     padding-left: 0.5rem;
     margin-top: 1.2rem;
+    min-width: 252px;
+}
+
+#list-about-me {
+    min-width: 74px;
 }
 
 .container {
@@ -109,7 +114,7 @@ h1 {
 }
 
 #about-me-text-1, #about-me-text-2 {
-    width: 400px;
+    width: 30%;
 }
 
 
@@ -178,6 +183,7 @@ button {
     gap: 5rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    flex-wrap: wrap;
 }
 
 .image-container img {
@@ -213,6 +219,7 @@ button {
 
 .skills-box {
     display: flex;
+    justify-content: center;
     height: 200px;
     width: 200px;
     border: 1px solid #36454f;
@@ -222,6 +229,8 @@ button {
     text-align: center;
     font-weight: 800;
 }
+
+
 
 #contact-final-container {
     display: flex;
@@ -288,4 +297,88 @@ hr {
     background-image: url(./instagram-logo.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+@media only screen and (min-width:1400px) {
+    #about-me-section {
+        align-items: center;
+    }
+    
+}
+
+@media only screen and (max-width: 1300px) {
+    #about-me-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about-me-text-1, #about-me-text-2 {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 815px) {
+    #nav-name {
+        display: none;
+    }
+
+    .nav-container {
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .container {
+        padding-left: 0;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .contact-container {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    #header-text {
+        font-size: 4rem;
+    }
+    
+}
+
+@media only screen and (max-width: 615px) {
+    .skills-box {
+        height: 450px;
+        width: 450px;
+        font-size: 2.75rem;
+    }
+}
+
+@media only screen and (min-height: 750px ) {
+    #header-text {
+        font-size: 6rem;
+    }
+
+    h1 {
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 700px) and (min-height: 750px){
+    #header-text {
+        font-size: 4rem;
+    }
+
+    h1 {
+        margin-bottom: 0rem;
+        height: 110px;
+    }
+
+    header {
+        height: 65vh;
+    }
+    
 }
