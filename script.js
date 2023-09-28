@@ -15,3 +15,21 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
+
+let asdTest = document.getElementById("asd");
+
+asdTest.addEventListener("click", function() {
+  this.classList.add("clicked");
+  setTimeout(() =>{
+    this.classList.remove("clicked");
+  }, 300);
+});
+
+let mySiteIntro = document.getElementById("nav-name");
+
+mySiteIntro.addEventListener("click", function () {
+  this.innerHTML = "Thanks for Visiting";
+  setTimeout(() => {
+    this.classList.add("clicked-test");
+  }, 3000);
+});

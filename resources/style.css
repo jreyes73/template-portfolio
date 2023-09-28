@@ -238,11 +238,18 @@ button {
     height: 35px;
     width: 200px;
     padding-left: 0px;
+    margin-bottom: 150px;
 }
 
 #contact-final-container p a {
     text-decoration: none;
     width: 95vw;
+}
+
+#contact-link {
+    text-decoration: none;
+    color: #36454f;
+    font-weight: 700;
 }
 
 hr {
@@ -299,6 +306,21 @@ hr {
     background-repeat: no-repeat;
 }
 
+.clicked {
+    background-image: none;
+    background-color: #f39c12;
+  }
+
+.clicked-test {
+    background-color: hotpink;   
+}
+
+footer { 
+    display: flex;
+    justify-content: center;
+    font-size: .75;
+}
+
 @media only screen and (min-width:1400px) {
     #about-me-section {
         align-items: center;
@@ -351,9 +373,9 @@ hr {
 
 @media only screen and (max-width: 615px) {
     .skills-box {
-        height: 450px;
-        width: 450px;
-        font-size: 2.75rem;
+        height: 350px;
+        width: 350px;
+        font-size: 2rem;
     }
 }
 
@@ -381,4 +403,12 @@ hr {
         height: 65vh;
     }
     
+}
+
+@media only screen and (max-height: 580px) {
+    
+    h1 {
+        font-size: 2rem;
+        height: 80px;
+    }
 }
