@@ -6,7 +6,7 @@ This is the source code for my portfolio website. I built this to showcase what 
 
 * HTML
 * CSS
-* [Font Awesome](https://fonts.google.com/specimen/Roboto+Condensed?query=roboto+con)
+* [Roboto_Condensed](https://fonts.google.com/specimen/Roboto+Condensed?query=roboto+con)
 
 ## Additional
 
