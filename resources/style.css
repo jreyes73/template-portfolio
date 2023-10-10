@@ -50,6 +50,7 @@ header {
     background-color: black;
     display: flex;
     height: 95vh;
+    width: 100%;
     gap: 30rem;
     position: relative;
     top: 4rem;    
@@ -111,6 +112,7 @@ h1 {
     display: flex;
     gap: 3rem;
     justify-content: center;
+    align-items: center;
 }
 
 #about-me-text-1, #about-me-text-2 {
@@ -321,12 +323,6 @@ footer {
     font-size: .75;
 }
 
-@media only screen and (min-width:1400px) {
-    #about-me-section {
-        align-items: center;
-    }
-    
-}
 
 @media only screen and (max-width: 1300px) {
     #about-me-section {
@@ -339,7 +335,7 @@ footer {
     }
 }
 
-
+/* 
 @media only screen and (max-width: 815px) {
     #nav-name {
         display: none;
@@ -411,4 +407,4 @@ footer {
         font-size: 2rem;
         height: 80px;
     }
-}
+} */
