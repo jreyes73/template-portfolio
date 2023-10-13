@@ -1,0 +1,53 @@
+@font-face {
+    font-family: roboto;
+    src: url(./Roboto_Condensed/RobotoCondensed-Regular.ttf);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+}
+
+#banner {
+    background-color: black;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+#banner h1 {
+    color: #D3D3D3;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.subheading {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.about-me-description {
+    padding: 1rem;
+}
+
+#julian-picture {
+    width: 100%;
+}
+
+.drop-down-box {
+    border: solid #111 1px;
+    width: 80%;
+    margin: 0 auto 1rem auto;
+    padding: 1rem;
+    box-shadow: 5px 5px;
+    margin-bottom: 3rem;
+}
+
+.drop-down-box p {
+    font-weight: 900;
+}
