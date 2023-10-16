@@ -14,16 +14,13 @@
     height: 50vh;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
 }
 
 #banner h1 {
     color: #D3D3D3;
-    /* padding: 1rem; */
-    text-align: center;
+    padding-left: 1rem;
     font-size: 4rem;
-    /* text-shadow: 3px 3px gray; */
 }
 
 .subheading {
@@ -60,15 +57,6 @@
     font-weight: 900;
 }
 
-/* .collapsible {
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 95vw;
-    margin: 30px;
-    border: 1px solid #36454f;
-    box-shadow: 5px 5px  #36454f;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-} */
+.project-skills-description {
+    padding: 1rem;
+}
