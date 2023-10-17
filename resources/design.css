@@ -37,6 +37,7 @@
     width: 100%;
 }
 
+
 .drop-down-box {
     border: solid #111 1px;
     width: 80%;
@@ -46,6 +47,8 @@
     margin-bottom: 3rem;
     color: #444;
     cursor: pointer;
+    font-weight: 900;
+    font-size: 15px;
 }
 
 .drop-down-box:hover {
@@ -57,6 +60,30 @@
     font-weight: 900;
 }
 
+.content {
+    width: 80vw;
+    padding: 10px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    margin-left: 30px;
+    margin-bottom: 3rem;
+}
+
 .project-skills-description {
     padding: 1rem;
+    justify-content: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-container img{
+    height: 150px;
+    margin-top: 1rem;
+    border: 1px solid #111;
+    box-shadow: 3px 3px #111;
 }
