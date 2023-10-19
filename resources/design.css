@@ -134,7 +134,14 @@
     background-color: white;
     border: 1px solid #111;
     box-shadow: 3px 3px #111;
-    margin: 0 auto;
+    margin: 0 auto 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-box p {
+    font-weight: 700;
 }
 
 .contact-box {
@@ -148,6 +155,13 @@
     font-weight: 900;
     font-size: 15px;
     transition: background-color 1.5s,
+}
+
+#contact-details{
+    line-height: 2rem;
+    font-weight: 700;
+    width: 60vw;
+    margin: 0 auto;
 }
 
 footer {
