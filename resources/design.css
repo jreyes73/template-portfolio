@@ -9,6 +9,40 @@
     font-family: "roboto";
 }
 
+#nav-bar-list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-weight: 700;
+    height: 2.5rem;
+    align-items: center;
+    border-bottom: 2px solid lightgray;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    box-shadow: 3px 3px 3px #111;
+    
+}
+
+#nav-bar-list li a {
+    text-decoration: none;
+    color: #111;
+    transition: color 1s, text-decoration 1s;
+}
+
+#nav-bar-list li a:hover {
+    text-decoration: underline;
+    color:darkcyan
+}
+
+#home-blank,
+#about-me-blank,
+#projects-blank,
+#skills-blank,
+#contact-blank {
+    height: 2.5rem;
+}
+
 #banner {
     background-color: black;
     height: 50vh;
@@ -25,12 +59,16 @@
 
 .subheading {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: .5rem;
     margin-bottom: 0.5rem;
 }
 
 .about-me-description {
     padding: 1rem;
+}
+
+#description-1 {
+    padding-top: 0rem;
 }
 
 #julian-picture {
@@ -88,6 +126,15 @@
     margin-top: 1rem;
     border: 1px solid #111;
     box-shadow: 3px 3px #111;
+}
+
+.skills-box {
+    height: 10rem;
+    width: 10rem;
+    background-color: white;
+    border: 1px solid #111;
+    box-shadow: 3px 3px #111;
+    margin: 0 auto;
 }
 
 .contact-box {
