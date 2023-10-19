@@ -48,10 +48,13 @@
     cursor: pointer;
     font-weight: 900;
     font-size: 15px;
-    transition: background-color 1.5s,
 }
 
-.drop-down-box:hover {
+.container {
+    transition: background-color 1s;
+}
+
+.container:hover {
     background-color: #ccc;
 }
 
