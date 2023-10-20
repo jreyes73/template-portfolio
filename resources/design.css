@@ -71,7 +71,7 @@
     padding-top: 0rem;
 }
 
-#julian-picture {
+#main-picture {
     width: 100%;
 }
 
@@ -129,19 +129,27 @@
 }
 
 .skills-box {
-    height: 10rem;
-    width: 10rem;
+    height: 15rem;
+    width: 15rem;
     background-color: white;
     border: 1px solid #111;
     box-shadow: 3px 3px #111;
     margin: 0 auto 2rem auto;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
 
 .skills-box p {
     font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.filler {
+    height: 100px;
+    width: 100px;
+    border: 3px solid pink;
 }
 
 .contact-box {
@@ -175,4 +183,45 @@ footer p{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
     font-size: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+    #nav-bar-list li a {
+        font-size: 1.25rem;
+    }
+
+    #banner h1 {
+        font-size: 6.5rem;
+    }
+
+    .content {
+        width: 70vw;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .image-container {
+        align-items: center;
+    }
+    
+    .image-container img {
+        width: 60%;
+        height: auto;
+        
+    }
+
+    .about-me-description {
+        width: 70vw;
+        margin: 0 auto;
+    }
+
+    #main-picture {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        border: 3px solid #111;
+        box-shadow: 5px 5px;
+    color: #444;
+    }
 }
