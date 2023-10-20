@@ -186,13 +186,22 @@ footer p{
 }
 
 @media only screen and (min-width: 768px) {
+    
     #nav-bar-list li a {
         font-size: 1.25rem;
     }
 
-    #banner h1 {
-        font-size: 6.5rem;
+    header {
+        background-color: black;
+        display: flex;
+        height: 65vh;
+        align-items: center;
     }
+
+    #banner h1 {
+        font-size: 5.5rem;
+    }
+
 
     .content {
         width: 70vw;
