@@ -111,6 +111,10 @@
     margin-bottom: 3rem;
 }
 
+.information {
+    flex-direction: column;
+}
+
 .project-skills-description {
     padding: 1rem;
     justify-content: center;
@@ -152,6 +156,10 @@
     height: auto;
     position: relative;
     bottom: 1rem;
+}
+
+.skills-information {
+    flex-direction: column;
 }
 
 .contact-box {
@@ -246,8 +254,19 @@ footer p{
 }
 
 @media only screen and (min-width: 1000px) {
+    
+    #contact-details {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+    
     .skills-box {
         display: inline-flex;
         
+    }
+
+    .skills-information {
+        gap: .2rem;
+        flex-direction: row
     }
 }
