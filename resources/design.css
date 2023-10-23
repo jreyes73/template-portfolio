@@ -128,7 +128,7 @@
 
 .image-container img{
     width: 250px;
-    margin-top: 1rem;
+    margin: 1rem auto;
     border: 1px solid #111;
     box-shadow: 3px 3px #111;
 }
