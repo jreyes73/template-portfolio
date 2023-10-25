@@ -72,8 +72,12 @@
     padding-top: 0rem;
 }
 
-#main-picture {
+.about-me-images {
     width: 100%;
+}
+
+#about-me-image-2 {
+    display: none;
 }
 
 
@@ -249,7 +253,7 @@ footer p{
         margin: 0 auto;
     }
 
-    #main-picture {
+    .about-me-images {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -273,6 +277,17 @@ footer p{
     #contact-details {
         font-size: 1.3rem;
         line-height: 3rem;
+    }
+
+    #about-me-image {
+        display: block;
+    }
+
+    .about-me-section {
+        background-color: lightgreen;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
