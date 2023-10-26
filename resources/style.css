@@ -279,15 +279,30 @@ footer p{
         line-height: 3rem;
     }
 
-    #about-me-image {
+    .about-me-description {
+        margin: auto;
+        line-height: 2.5rem;
+    }
+
+    .about-me-images {
+        width: 80%;
+        margin: auto;
+    }
+
+    #about-me-image-2 {
         display: block;
     }
 
+    .about-me-description {
+        width: 80%;
+    }
+
     .about-me-section {
-        background-color: lightgreen;
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
+        padding: 3rem 0;
+        row-gap: 3rem;
     }
 }
 
